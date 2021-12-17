@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 13
+    },
+    "rules": {
+        "linebreak-style": "off",
+        "max-len": [
+            2,
+            100,
+            {
+                "ignoreUrls": true,
+                "ignorePattern": "import|export"
+            }
+        ],
+        "no-console": 1,
+        "no-var": 1,
+        "quotes": [
+            2,
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "indent": ["error", 4]
+    }
+}
