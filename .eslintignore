@@ -2,5 +2,5 @@ build/*.js
 dist/*.js
 node_modules/*.js
 .vscode
-# babel.config.js
-# gulpfile.js
+babel.config.js
+gulpfile.js
