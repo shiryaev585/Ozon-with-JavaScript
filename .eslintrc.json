@@ -12,6 +12,7 @@
     },
     "rules": {
         "linebreak-style": "off",
+        "no-trailing-spaces": "off",
         "max-len": [
             2,
             100,
@@ -22,6 +23,14 @@
         ],
         "no-console": 1,
         "no-var": 1,
+        "no-unused-expressions": [
+            2,
+            {
+                "allowShortCircuit": true,
+                "allowTaggedTemplates": true,
+                "allowTernary": true
+            }
+        ],
         "quotes": [
             2,
             "single",
